@@ -1,0 +1,36 @@
+{
+  "id": "./",
+  "name": "Tentris",
+  "short_name": "Tentris",
+  "description": "An endless camping-kit packing puzzle. Fit the equipment into the car and clear packed layers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "background_color": "#100b18",
+  "theme_color": "#100b18",
+  "orientation": "any",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Tentris",
+      "short_name": "Play",
+      "url": "./",
+      "icons": [{"src": "./icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}
